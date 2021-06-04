@@ -1,0 +1,9 @@
+from math import factorial
+def BracketCombinations(num):
+  return int(factorial(2*num)/(factorial(num+1)*factorial(num)))
+
+  # code goes here
+  return num
+
+# keep this function call here 
+print(BracketCombinations(input()))
